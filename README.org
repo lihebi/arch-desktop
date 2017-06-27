@@ -1,0 +1,29 @@
+#+TITLE: Readme
+
+To run the container:
+#+BEGIN_EXAMPLE
+docker run -d -p 5901:5901 -p 5902:5902 lihebi/hebi-arch
+#+END_EXAMPLE
+
+Then wait a little bit, connect via
+#+BEGIN_EXAMPLE
+# for stumpwm session
+vncviewer localhost:1
+# lxde session
+vncviewer localhost:1
+#+END_EXAMPLE
+
+
+The container can be stop and started again.
+
+#+BEGIN_EXAMPLE
+docker stop <name>
+docker start <name>
+#+END_EXAMPLE
+
+You can go into container by
+#+BEGIN_EXAMPLE
+docker attach <name>
+#+END_EXAMPLE
+
+and detach by the detach key (C-p C-p) (C-] C-[)
