@@ -1,8 +1,10 @@
 #+TITLE: Readme
 
+This is a container contains all the desktop packages I would need.
+
 To run the container:
 #+BEGIN_EXAMPLE
-docker run -d -p 5901:5901 -p 5902:5902 lihebi/hebi-arch
+docker run -d -p 5901:5901 -p 5902:5902 lihebi/arch-desktop
 #+END_EXAMPLE
 
 Then wait a little bit, connect via
